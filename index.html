@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Location Mapper</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <h2>Location Mapping Using Coordinates</h2>
+
+    <div class="controls">
+        <label>
+            Latitude:
+            <input type="number" id="lat" step="any" placeholder="e.g. 12.9716">
+        </label>
+
+        <label>
+            Longitude:
+            <input type="number" id="lng" step="any" placeholder="e.g. 77.5946">
+        </label>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
